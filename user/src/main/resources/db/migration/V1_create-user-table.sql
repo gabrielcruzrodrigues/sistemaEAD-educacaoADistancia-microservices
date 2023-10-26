@@ -1,0 +1,15 @@
+CREATE TABLE user (
+	id UUID PRIMARY KEY,
+	name VARCHAR(60) NOT NULL,
+	birthday DATE NOT NULL,
+	registration VARCHAR(12) NOT NULL,
+	cpf VARCHAR(11) NOT NULL,
+	rg VARCHAR(10) NOT NULL,
+	address VARCHAR(100) NOT NULL,
+	phone VARCHAR(11) NOT NULL,
+	email VARCHAR(60) NOT NULL,
+	pcd BOOLEAN NOT NULL,
+	image VARCHAR(255) NOT NULL,
+	historicoEscolar VARCHAR(255) NOT NULL,
+	diplomaEnsinoMedio VARCHAR(255) NOT NULL
+);
